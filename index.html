@@ -1,10 +1,148 @@
+<!DOCTYPE html>
 <html>
-<head> <title> My Firt WebPage</title></head>
-<body><H1>HUDSON MONANDA ONTIRI</H1>
-<h2>HUDSON MONANDA ONTIRI</h2>
-<h3>HUDSON MONANDA ONTIRI</h3>
-<h4>HUDSON MONANDA ONTIRI</h4>
-<h5>HUDSON MONANDA ONTIRI</h5>
-<h6>HUDSON MONANDA ONTIRI</h6>
+<head>
+    <meta charset="UTF-8">
+    <title> Emobilis </title>
+    <link href="css/style.css" rel="stylesheet">
+<style>
+  Button{
+      background-color: green;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+  }
+  #btnsubmit{
+      background-color: blue;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+  }
+  .table{
+      width: 100%;
+      margin: 20px;
+      padding: 10px;
+      font-family: Cambria;
+  }
+  td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid grey;
+  }
+</style>
+</head>
+<body style="background-color: black; color: white">
+
+<p>  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+    Lorem Ipsum.</p>
+<ol>
+
+    <li>AFC Leopards</li>
+    <li>Gor Mahia</li>
+    <li>Sofapaka</li>
+    <li>Tusker FC</li>
+</ol>
+<ul>
+
+    <li>AFC Leopards</li>
+    <li>Gor Mahia</li>
+    <li>Sofapaka</li>
+    <li>Tusker FC</li>
+</ul>
+<blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+    to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+    typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+    versions of Lorem Ipsum.</p>
+</blockquote>
+<img alt="IMAGE LOADING" height="200" src="assets/330044093_663684665554888_1392495653146981358_n.jpg" width="200">
+<button>Click Me</button>
+<button id="btnsubmit">SUBMIT</button>
+<table class="table">
+    <thead>
+    <th>Position</th>
+    <th>Team</th>
+    <th>Points</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>AFC LEopards</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>sofapaka</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Gor Mahia</td>
+        <td>28</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">Total ticket pricing</td>
+        <td> $ 5.45</td>
+    </tr>
+    </tfoot>
+</table>
+
+<table class="table">
+    <thead>
+    <th>Position</th>
+    <th>Team</th>
+    <th>Points</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>AFC LEopards</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>sofapaka</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Gor Mahia</td>
+        <td>28</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">Total ticket pricing</td>
+        <td> $ 5.45</td>
+    </tr>
+    </tfoot>
+</table>
+<form method="post">
+    <label> Team Name</label>
+    <input name="Team name" placeholder="Enter team Name" type="text">
+    <label>Season Points</label>
+    <input name="No of Points" placeholder="Enter no of points" type="number">
+    <label>Email</label>
+    <Input name="Email address" placeholder="Enter your email" type="email">
+    <label> Team color</label>
+    <select name="team_color">
+        <option value="green">green</option>
+        <option value="red">red</option>
+        <option value="orange">orange</option>
+    </select>
+    <label>Team Picture</label>
+    <input name="Team Pic" type="file">
+    <input name="submit" type="submit">
+    <input name="reset" type="reset">
+
+</form>
+
 </body>
 </html>

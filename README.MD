@@ -14,4 +14,6 @@ c. ##config github terminal
 1. git init
 2. git remote add origingit https://github.com/Huddie-1/EmobilisWebPage.git
 3. git remote -v (check if above origin was added)
+4. git status ( red - not yet to be commited) ( green - ready to be commited)
+5. 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
 
